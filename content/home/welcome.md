@@ -1,20 +1,17 @@
 ---
-# A Demo section created with the Blank widget.
-# Any elements can be added in the body: https://wowchemy.com/docs/writing-markdown-latex/
-# Add more sections by duplicating this file and customizing to your requirements.
-
-widget: hero  # See https://wowchemy.com/docs/page-builder/
-headless: true  # This file represents a page section.
-weight: 10  # Order that this section will appear.
-title: "Wowchemy Research Group"
-subtitle: ""
-hero_media: welcome.jpg
-design:
-  # Choose how many columns the section has. Valid values: 1 or 2.
-  columns: '1'
 advanced:
-  css_style:
-  css_class:
+  ? css_style
+  ? css_class
+widget: hero
+widget_id: Recent-posts1
+headless: true
+weight: 10
+title: Fang Liu Research Group
+subtitle: ""
+design:
+  columns: "1"
+  background:
+    image: /static/media/left.png
+hero_media: welcome.jpg
 ---
-
-The Wowchemy Research Group has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+Low dimensional materials and the unique structures built from them has a variety of new exotic properties beyond traditional materials. We hope to produce low dimensional materials and their artificial structures in a sizable and controllable way. Our ultimate goal is to use these materials to provide novel platforms for next-generation information processing, light processing, and quantum devices. In order to do that, we need to unravel their static and dynamical electronic, magnetic and photonic properties, using the cutting edge characterization techniques including optical and photoemission spectroscopy. We are an experimental material / physical chemistry group. Welcome to join us!
